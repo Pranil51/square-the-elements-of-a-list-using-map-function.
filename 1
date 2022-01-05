@@ -1,0 +1,8 @@
+import functools
+n = int(input("length of your list: "))
+L = []
+for i in range(n):
+    r = int(input("input integer element %s: "%(i+1)))
+    L.append(r)
+print(L)
+list(map(lambda x: x**2 ,L))
